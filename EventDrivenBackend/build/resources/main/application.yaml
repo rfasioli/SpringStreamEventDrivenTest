@@ -1,0 +1,26 @@
+logging:
+  level:
+    org:
+      springframework:
+        amqp: DEBUG
+spring:
+  cloud:
+    stream:
+      bindings:
+        backend-event:
+          destination: test_queue
+          group: a
+        backend-result:
+          destination: backend-result
+          group: a
+      binders:
+        local_rabbit:
+          type: rabbit
+          environment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: admin
+                password: mypass
+                virtual-host: test

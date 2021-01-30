@@ -1,0 +1,10 @@
+br/com/audsat/eventdrivenbackend/interfaces/Processor.java
+ br.com.audsat.eventdrivenbackend.interfaces.Processor
+br/com/audsat/eventdrivenbackend/interfaces/ProcessorListener.java
+ br.com.audsat.eventdrivenbackend.interfaces.ProcessorListener
+br/com/audsat/eventdrivenbackend/EventDrivenBackendApplication.java
+ br.com.audsat.eventdrivenbackend.EventDrivenBackendApplication
+br/com/audsat/eventdrivenbackend/interfaces/dtos/Operation.java
+ br.com.audsat.eventdrivenbackend.interfaces.dtos.Operation
+br/com/audsat/eventdrivenbackend/interfaces/dtos/Response.java
+ br.com.audsat.eventdrivenbackend.interfaces.dtos.Response

@@ -1,0 +1,4 @@
+rootProject.name = 'EventDrivenPoc'
+include 'EventDrivenBackend'
+include 'EventDrivenAPIGateway'
+

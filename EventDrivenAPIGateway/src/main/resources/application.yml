@@ -1,0 +1,22 @@
+logging:
+  level:
+    org:
+      springframework:
+        amqp: DEBUG
+    br.com.audsat: DEBUG
+spring:
+  cloud:
+    stream:
+      bindings:
+        backend-event:
+          destination: test_queue
+        backend-result:
+          destination: backend-result
+          group: a
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: mypass
+    virtual-host: test
+
